@@ -21,3 +21,5 @@ PlayerPreview.propTypes = {
   avatar: PropTypes.string.isRequired,
   username: PropTypes.string.isRequired,
 }
+
+export default PlayerPreview;
