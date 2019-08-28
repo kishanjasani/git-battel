@@ -1,14 +1,14 @@
 import axios from 'axios';
 
 function getProfile (username) {
-  return axios.get('https://api.github.com/users'+ username )
+  return axios.get('https://api.github.com/users/'+ username )
     .then(function (user) {
       return user.data;
     })
 }
 
 function getRepos (username) {
-  return axios.get('http://api.github.com/users' + username + '/repos?per_page=100');
+  return axios.get('http://api.github.com/users/' + username + '/repos?per_page=100');
 }
 
 function getStarCount (repos) {
