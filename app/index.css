@@ -119,14 +119,27 @@ a {
     width: 80%;
 }
 
-.column label{
+.column label {
     font-size: 30px;
     text-align: center;
     font-weight: 200;
 }
 
-.header{
+.header {
     font-size: 30px;
     text-align: center;
     font-weight: 200;
+}
+
+.reset {
+    border: none;
+    background: transparent;
+    color: #d0021b;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.reset:hover {
+    cursor: pointer;
 }
